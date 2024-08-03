@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Leer el conjunto de datos
-vehiculos = pd.read_csv('C:/Users/andre/Documents/TRIPLETEN ANALISIS DE DATOS/PROYECTOS CON GITHUB Y VS/clonacion_VS/proyect_6_trip/vehicles_us.csv')
+vehiculos = pd.read_csv('vehicles_us.csv')
 
 # Agregar un encabezado
 st.header('Análisis Interactivo de Anuncios de Coches')
